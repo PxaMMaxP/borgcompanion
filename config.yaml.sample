@@ -1,0 +1,10 @@
+general:
+  notification:
+    to_email: "Mail@example.com"
+    account: "mailbox.config"
+    info_day: "Sunday"
+  logging:
+    level: "Trace" # Possible values: Trace, Debug, Info, Warn, Error, Fatal.
+    file: "/var/log/borg/borgcompanion.log"
+    systemd: "example"
+    console: true
